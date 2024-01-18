@@ -1,7 +1,36 @@
-h1 {
-    font-style: italic;
+h2 {
+    text-align: center;
 }
 
 #main {
     background-color: yellow;
+}
+
+#lower-box {
+    background-color: blue;
+}
+
+#pixel {
+    font-size: 30px;
+}
+
+#points {
+    font-size: 30pt;
+}
+
+#inches {
+    font-size: 1in;
+}
+
+#centimeter {
+    font-size: 1cm;
+}
+
+#milimeter {
+    font-size: 20mm;
+}
+
+#talk-about-units {
+    font-size: 5rem;
+    /* text-align: center; */
 }
