@@ -8,18 +8,23 @@
 </head>
 <body>
     <h2>Bounce the ball on the Pipe</h2>
-    <div id="talk-about-units">
-        Absolute Units
+    <div >
+        <h1 id="talkAboutUnits">Absolute Units</h1>
         <div>
-            <p id="pixel">Pixels</p>
+            <p id="pixelLine">Pixels</p>
+            <div id="pixel">
+                <input type="range" min="0" max="100" value="0" id="pixelRange">
+                <input type="number" id="pixelRangeNumber" min="0" max="100" value="0">
+            </div>
             <p id="points">Points</p>
             <p id="inches">Inches</p>
             <p id="centimeter">Centimeter</p>
             <p id="milimeter">Milimeter</p>
-        </div>
+        </div> 
     </div>
     <div id="main">
         <div id="lower-box"></div>
     </div>
+    <script src="./v1/src/script.js"></script>
 </body>
 </html>
