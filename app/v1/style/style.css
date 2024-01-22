@@ -14,9 +14,8 @@ h2 {
     text-align: center;
 }
 
-#pixel {
-    display: flex;
-    justify-content: space-between;
+#first {
+    background-color: aqua;
 }
 
 /* by default line */
@@ -25,11 +24,9 @@ h2 {
     font-size: 30px;
 }
 
-#valueBox {
-    border: 1px solid black; /* Border for visibility */
-    padding: 5px;
-    margin-top: 10px;
-    display: inline-block; /* Makes it a box shape */
+#pixel {
+    display: flex;
+    justify-content: space-between;
 }
 
 #points {
